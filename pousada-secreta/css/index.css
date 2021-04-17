@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a{
+    text-decoration:none
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    height:4vh;
+    margin-bottom: 0;
+}
+
+.topo{
+    display: flex;
+    margin: 20px;
+}
+
+.links{
+    margin-top: 0;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.background-topo{
+    background-image: url("assets/img-fundo.jpg");
+    margin-top: 2%;
+    height: 95vh;
+}
+
+.container-titulo-pousada{
+    background-color: rgba(0, 128, 0, 0.289);
+    padding: 2%;
+    width: 35vw;
+    margin-left: 50%;
+    color: white;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    transform: translateY(250px);
+}
+
+.container-imgs-quartos{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.container-quartos img{
+    width: 60%
+}
+
+.container-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-paragrafos{
+    width: 25vw;
+    margin: 10px;
+}
+
+.infos{
+    display: flex;
+    padding: 50px;
+}
+
+.infos img{
+    width:250px;
+    height: 250px;
+}
+
+@media(max-width: 910px){
+    header{
+        height: 8vh;
+    }
+    .container-paragrafos{
+        width: 40vw;
+    }
+    .infos{
+        padding: 10px;
+    }
+    .section-quartos{
+        justify-content: center;
+    }
+    .container-quartos{
+        transform: translateX(-100px);
+        margin: 12px;
+    }
+    .container-quartos img{
+        width: 100px;
+    }
+    .paragrafos{
+        font-size: 12px;
+    }
+}
