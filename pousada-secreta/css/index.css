@@ -83,6 +83,9 @@ header{
     header{
         height: 8vh;
     }
+    .background-topo{
+        width: 100vw
+    }
     .container-paragrafos{
         width: 40vw;
     }
